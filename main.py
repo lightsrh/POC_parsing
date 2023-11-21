@@ -29,7 +29,7 @@ if __name__ == "__main__":
     config_server = config["server"]
     config_autBackup = config["auto_backup"]
 
-    server1 = Server(config_server)
-    print(server1) 
-    autoBackup1 = AutoBackup(config_autBackup)
-    print(autoBackup1)
+    server = Server(config_server)
+    print(server) 
+    autoBackup = AutoBackup(config_autBackup)
+    print(autoBackup)
